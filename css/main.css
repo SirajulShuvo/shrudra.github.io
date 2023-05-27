@@ -1,1 +1,29 @@
+body {
+	/* font-family: ; */
+}
+
+h4, p {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.nav {
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+}
+
+.nav li {
+	display: inline;
+}
+
+.content {
+	text-align: center;
+}
+
 
