@@ -122,3 +122,38 @@ nav div:first-of-type a {
 		margin: 0 auto
 	}
 }
+
+/* Sponsors Footer */
+
+.sponsors {
+  width: 100%;
+  height: auto;
+  padding: 40px 0 10px;
+  z-index: 14;
+  margin-top: 0px;
+  z-index: 1 !important;
+  text-align: center !important;
+  z-index: 99;
+}
+
+.sponsors img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  height: auto;
+  vertical-align: middle;
+  max-width: 120px;
+}
+
+.sponsors ul {
+  padding: 0;
+  margin: 15px 0 0 0;
+  list-style: none;
+  display: block;
+}
+
+
+.sponsors ul li {
+  margin: 35px 16px 0px;
+  display: inline-block;
+}	
