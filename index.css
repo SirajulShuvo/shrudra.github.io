@@ -1,0 +1,94 @@
+/* Root Variables */
+:root {
+  --background: black;
+  --midtone: #222222;
+  --foreground: white;
+  --contrast: red;
+  font-size: 2vh;
+  font-family: Georgia, serif;
+}
+
+/* Global Styles */
+body {
+  background: var(--midtone);
+  color: var(--foreground);
+  margin: 0;
+  font-family: inherit;
+}
+
+h1, h2 {
+  
+  text-align: center;
+  font-family: 'FSBI', serif;
+  font-style: italic;
+  color: var(--contrast);
+  text-shadow: 1px 1px 1px black;
+}
+
+a {
+  color: var(--contrast);
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+a:hover {
+  background-color: var(--contrast);
+  color: var(--background);
+}
+
+p {
+  padding: 0.5em;
+}
+
+#content {
+  margin: 9em;
+  max-width: 90%;
+}
+
+
+/* Classes */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modal:not(:target) { display: none; }
+
+/* Media Queries */
+@media only screen and (max-width: 866px) {
+  :root {
+    font-size: 2.5vh;
+  }
+
+  #content {
+    margin: 1em;
+    max-width: 100%;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
+
+footer {
+  background-color: #222222;
+  color: #ffffff;
+  padding: 2em;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0.5em;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+footer a:hover {
+  color: #cccccc;
+}
