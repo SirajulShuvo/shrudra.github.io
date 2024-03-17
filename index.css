@@ -64,7 +64,7 @@ p {
 
   #content {
     margin: 1em;
-    max-width: 100%;
+    max-width: 10p%;
   }
 
   p {
@@ -91,4 +91,11 @@ footer a {
 
 footer a:hover {
   color: #cccccc;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Styles for screens less than 600px wide */
+    .content {
+        width: 100%;
+    }
 }
